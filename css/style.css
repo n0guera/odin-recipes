@@ -1,6 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
+    background-color: bisque;
 }
 
 h1 {
@@ -8,7 +9,21 @@ h1 {
     text-align: center;
 }
 
-ul {
+.un-list {
     display: grid;
     place-items: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.p {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
 }
